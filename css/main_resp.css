@@ -1,0 +1,61 @@
+/*WIDTH*/
+@media (min-width : 1024px){
+	#main {
+		width: 800px;
+	}
+}
+
+@media (min-width : 1280px) {
+	body {
+		font-size: medium;
+	}
+	
+	#main {
+		height: 680px;
+		width: 900px;
+	}
+	
+	#top {
+		height: 170px;
+	}
+	
+	#title>p {
+		padding-top: 8px;
+	}
+}
+
+@media (min-width : 1920px) {
+	#main {
+		height: 700px;
+		width: 1100px;
+	}
+}
+
+/*HEIGHT*/
+@media (min-height : 600px) {
+	body {
+		font-size: small;
+	}
+	
+	#main {
+		height: 400px;
+	}
+	
+	#top {
+		height: 160px;
+	}
+	
+	#title>p {
+		padding-top: 8px;
+	}
+}
+
+@media (min-height : 768px) {
+	#main {
+		height: 420px;
+	}
+	
+	#title>p {
+		padding-top: 12px;
+	}
+}

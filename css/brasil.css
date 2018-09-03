@@ -1,0 +1,16 @@
+#brasil, #title, #bottom {
+	background: rgb(0, 157, 118);
+}
+
+#title>p {
+	color: rgb(150, 232, 211);
+}
+
+#center p {
+	color: rgb(0, 94, 70);
+}
+
+#center {
+	background: rgb(150, 232, 211);
+	background: rgba(0, 204, 153, 0.4);
+}

@@ -1,0 +1,16 @@
+#dicas, #title, #bottom {
+	background: rgb(102, 0, 204);
+}
+
+#title>p {
+	color: rgb(180, 130, 230);
+}
+
+#center p {
+	color: rgb(76, 0, 128);
+}
+
+#center {
+	background: rgb(180, 130, 230);
+	background: rgba(102, 0, 204, 0.4);
+}

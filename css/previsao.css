@@ -1,0 +1,16 @@
+#prev, #title, #bottom {
+	background: rgb(0, 131, 174);
+}
+
+#title>p {
+	color: rgb(149, 210, 231);
+}
+
+#center p {
+	color: rgb(0, 85, 113);
+}
+
+#center {
+	background: rgb(149, 210, 231);
+	background: rgba(0, 153, 204, 0.4);
+}
