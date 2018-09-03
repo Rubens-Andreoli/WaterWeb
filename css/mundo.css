@@ -6,11 +6,10 @@
 	color: rgb(187, 224, 151);
 }
 
-#center p {
+#center p, #center li {
 	color: rgb(39, 79, 0);
 }
 
 #center {
 	background: rgb(187, 224, 151);
-	background: rgba(91, 183, 0, 0.4);
 }
