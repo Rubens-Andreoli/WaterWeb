@@ -1,15 +1,20 @@
-#proj, #title, #bottom {
-	background: rgb(0, 102, 153);
+#proj, #title, #bottom, #imagens, .modalImg>div {
+	background:rgb(0, 102, 153);
 }
 
 #title>p {
-	color: rgb(150, 191, 211);
+	color:rgb(150, 191, 211);
 }
 
-#center p {
-	color: rgb(0, 66, 98);
+#imagens img, .modalImg img {
+	border-color:rgb(150, 191, 211);
+}
+
+#center, .modalImg p {
+	color:rgb(0, 66, 98);
 }
 
 #center {
-	background: rgb(150, 191, 211);
+	background:rgb(150, 191, 211);
+	background:rgba(150, 191, 211, 0.85);
 }

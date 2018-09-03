@@ -1,15 +1,42 @@
-#dicas, #title, #bottom {
-	background: rgb(102, 0, 204);
+#dicas, #title, #bottom, #imagens, .modalImg>div {
+	background:rgb(92, 0, 234);
 }
 
 #title>p {
-	color: rgb(180, 130, 230);
+	color:rgb(170, 130, 255);
 }
 
-#center p {
-	color: rgb(76, 0, 128);
+#imagens img, .modalImg img {
+	border-color:rgb(170, 130, 260);
+}
+
+#center, .modalImg p {
+	color:rgb(66, 0, 158);
 }
 
 #center {
-	background: rgb(180, 130, 230);
+	background:rgb(170, 130, 255);
+	background:rgba(170, 130, 255, 0.85);
+}
+
+#center h2 {
+	font-size:105%;
+	margin-bottom:-15px;
+}
+
+#center h1+div {
+	margin-left:50px;
+}
+
+#center .attn {
+	text-indent:0px !important;
+}
+
+#center p+p, #center .attn {
+	margin-top:-15px;
+}
+
+#center .attn>span {
+	text-decoration:underline;
+	font-weight:bold;
 }

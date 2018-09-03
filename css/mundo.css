@@ -1,15 +1,20 @@
-#mundo, #title, #bottom {
-	background: rgb(91, 183, 0);
+#mundo, #title, #bottom, #imagens, .modalImg>div {
+	background:rgb(91, 183, 0);
 }
 
 #title>p {
-	color: rgb(187, 224, 151);
+	color:rgb(187, 224, 151);
 }
 
-#center p, #center li {
-	color: rgb(39, 79, 0);
+#imagens img, .modalImg img {
+	border-color:rgb(187, 224, 151);
+}
+
+#center, .modalImg p {
+	color:rgb(39, 79, 0);
 }
 
 #center {
-	background: rgb(187, 224, 151);
+	background:rgb(187, 224, 151);
+	background:rgba(187, 224, 151, 0.85);
 }
