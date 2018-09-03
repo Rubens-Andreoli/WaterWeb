@@ -1,4 +1,5 @@
-#dicas, #title, #bottom, .modalImg>div, #imagens {
+/*CORES DOS ELEMENTOS*/
+#dicas, #title, #footer, .modalImg>div, #album {
 	background:rgb(92, 0, 234);
 }
 
@@ -6,7 +7,7 @@
 	color:rgb(160, 130, 255);
 }
 
-#imagens img, .modalImg img {
+#album img, .modalImg img {
 	border-color:rgb(160, 130, 260);
 }
 
@@ -19,6 +20,7 @@
 	background:rgba(160, 130, 255, 0.90);
 }
 
+/*ELEMENTOS DO #BOTTOM*/
 #center h2 {
 	font-size:105%;
 	margin-bottom:-15px;

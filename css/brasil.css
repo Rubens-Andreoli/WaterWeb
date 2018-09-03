@@ -1,4 +1,5 @@
-#brasil, #title, #bottom, .modalImg>div, #imagens {
+/*CORES DOS ELEMENTOS*/
+#brasil, #title, #footer, .modalImg>div, #album{
 	background:rgb(0, 157, 118);
 }
 
@@ -6,7 +7,7 @@
 	color:rgb(150, 232, 211);
 }
 
-#imagens img, .modalImg img {
+#album img, .modalImg img {
 	border-color:rgb(150, 232, 211);
 }
 
