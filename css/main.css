@@ -5,15 +5,15 @@ body {
 	background-image:url(../imagens/back_2.jpg);
 	background-size:100%;
 	background-repeat:no-repeat;
+	font-family:"Century Gothic", "Lucida Console";
 }
 
 #main {
 	position:relative;
 	height:200px;
-	/*width:65%;*/
 	width:75%;
 	min-width:700px;
-	margin: 0px auto;
+	margin:0 auto;
 }
 
 #top {
@@ -22,8 +22,7 @@ body {
 }
 
 #top>ul {
-	margin:0px;
-	padding:0px;
+	padding:0;
 }
 
 #top li {
@@ -31,9 +30,34 @@ body {
 	font-size:130%;
 	display:inline;
 	list-style-type:none;
-	padding: 0px 5px;
-	margin: 0px 10px;
+	padding:3px 5px;
+	margin:0 10px;
 	border-radius:5px;
+}
+
+#mundo:hover {
+	border-top:2px solid rgb(91, 183, 0);
+	border-bottom:2px solid rgb(91, 183, 0);
+}
+
+#brasil:hover {
+	border-top:2px solid rgb(0, 157, 118);
+	border-bottom:2px solid rgb(0, 157, 118);
+}
+
+#prev:hover {
+	border-top:2px solid rgb(0, 131, 174);
+	border-bottom:2px solid rgb(0, 131, 174);
+}
+
+#proj:hover {
+	border-top:2px solid rgb(0, 102, 153);
+	border-bottom:2px solid rgb(0, 102, 153);
+}
+
+#dicas:hover {
+	border-top:2px solid rgb(92, 0, 234);
+	border-bottom:2px solid rgb(92, 0, 234);
 }
 
 a:link, a:visited, a:hover, a:active  {
@@ -43,8 +67,7 @@ a:link, a:visited, a:hover, a:active  {
 
 #title {
 	height:50px;
-	border-radius: 10px 10px 0px 0px;
-	font-family: "Century Gothic", "Lucida Console";
+	border-radius:10px 10px 0px 0px;
 }
 
 #title>p {
@@ -52,7 +75,7 @@ a:link, a:visited, a:hover, a:active  {
 	text-transform:uppercase;
 	font-size:190%;
 	padding-top:10px;
-	margin-top:10px; 
+	margin-top:10px;
 }
 
 #center {
@@ -61,8 +84,9 @@ a:link, a:visited, a:hover, a:active  {
 	position:relative;
 	font-size:110%;
 	text-align:justify;
-	padding:0px 10px;
+	padding:0 10px;
 	border-left:1px dashed Black;
+	font-family:none;
 }
  
 #center p {
@@ -76,20 +100,16 @@ a:link, a:visited, a:hover, a:active  {
 
 #imagens {
 	float:right;
-	/*width:15%;*/
 	width:20%;
 	height:93%;
-	text-align:center;
 	border-right:1px dashed Black;
-	/*overflow-y:scroll;*/
-}
-
-#imagens>p {
-	margin-top:5px;
-	margin-bottom: 5px;
+	text-align:center;
+	padding:0 5px;
+	overflow:auto;
 }
 
 #imagens img {
+	border:4px ridge Black;
 	width:40%;
 }
 
@@ -97,15 +117,6 @@ a:link, a:visited, a:hover, a:active  {
 	position:relative;
 	height:25px;
 	border-radius:0px 0px 10px 10px;
-}
-
-#title, #center, #bottom {
-	box-shadow:-9px 9px 12px Black;
-}
-
-#title, #top li, #bottom {
-	border-right:1px dashed Black;
-	border-left:1px dashed Black;
 }
 
 .modalImg {
@@ -137,14 +148,15 @@ a:link, a:visited, a:hover, a:active  {
 	border-radius:10px;
 	box-shadow:1px 1px 30px Black;
 }
- 
-#imagens img, .modalImg img {
+
+.modalImg img {
 	border:4px ridge Black;
+	width:100%;
 }
 
 .modalImg p {
 	text-transform:uppercase;
-	font-style:bold;
+	font-weight:bold;
 	text-align:center;
 	margin-bottom:0px;
 }
@@ -168,21 +180,27 @@ a:link, a:visited, a:hover, a:active  {
 	background:Red; 
 }
 
-/*?px monitor height*/
+#top li, #title, #bottom, .modalImg>div {
+	border-left:1px dashed Black;
+	border-right:1px dashed Black;
+}
+
+#title, #center, #bottom {
+	box-shadow:-9px 9px 12px Black;
+}
+
 @media (min-height : 600px) {
 	#main {
 		height:350px;
 	}
 }
 
-/*768px monitor height*/
 @media (min-height : 680px) {
 	#main {
 		height:400px;
 	}
 }
 
-/*1024px monitor height*/
 @media (min-height : 900px) {
 	#main {
 		height:650px;

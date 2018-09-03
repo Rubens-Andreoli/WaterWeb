@@ -1,4 +1,4 @@
-#dicas, #title, #bottom, .modalImg>div {
+#dicas, #title, #bottom, .modalImg>div, #imagens {
 	background:rgb(92, 0, 234);
 }
 
@@ -14,7 +14,7 @@
 	color:rgb(66, 0, 158);
 }
 
-#center, #imagens {
+#center {
 	background:rgb(160, 130, 255);
 	background:rgba(160, 130, 255, 0.90);
 }
