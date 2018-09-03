@@ -1,9 +1,9 @@
 #index {
-	height:105%; /*changed*/
-	min-height:350px; /*changed*/
+	height:105%;
+	min-height:350px;
 	position:relative;
 	text-align:center;
-	margin-top:10px; /*changed*/
+	margin-top:10px;
 	box-shadow:0px 0px 30px 15px #888888;
 	border-radius:10px;
 }
@@ -11,12 +11,13 @@
 #main-menu{
 	width:645px;
 	height:300px;
-	margin:0 auto;
+	margin-left:auto;
+	margin-right:auto;
 	padding-top:20px;
 }
 
 .item-maior{
-	background-color:Red;
+	background-color:#FFF;
 	width:637px;
 	height:150px;
 	float:left;
@@ -27,6 +28,8 @@
 }
 
 .item-menor{
+	background-color:#FFF;
+	opacity:0.7;
 	width:120px;
 	height:120px;
 	float:left;
@@ -38,6 +41,28 @@
 
 .item-menor:hover{
 	cursor:pointer;
-	transition:0.7s; /*changed*/
+	opacity:1;
+	transition:0.3s;
 	background-color:#E0E0E0;
+	box-shadow:0px 0px 30px 15px #888888;
+}
+
+.mun:hover {
+	box-shadow:2px solid rgb(91, 183, 0);
+}
+
+.bra:hover {
+	box-shadow:2px solid rgb(0, 157, 118);
+}
+
+.prev:hover {
+	box-shadow:2px solid rgb(0, 131, 174);
+}
+
+.proj:hover {
+	box-shadow:2px solid rgb(0, 102, 153);
+}
+
+.dic:hover {
+	box-shadow:2px solid rgb(92, 0, 234);
 }

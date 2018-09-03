@@ -18,3 +18,8 @@
 	background:rgb(150, 191, 211);
 	background:rgba(150, 191, 211, 0.90);
 }
+
+#center .attn>span {
+	text-decoration:underline;
+	font-weight:bold;
+}
