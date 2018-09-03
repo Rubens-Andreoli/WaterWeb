@@ -1,4 +1,4 @@
-#mundo, #title, #bottom, #imagens, .modalImg>div {
+#mundo, #title, #bottom, .modalImg>div, #imagens {
 	background:rgb(91, 183, 0);
 }
 
@@ -16,5 +16,5 @@
 
 #center {
 	background:rgb(187, 224, 151);
-	background:rgba(187, 224, 151, 0.85);
+	background:rgba(187, 224, 151, 0.90);
 }

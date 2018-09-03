@@ -1,14 +1,17 @@
 ﻿/*600px monitor height*/
 body {
 	font-size:medium;
-	background-image:url(../imagens/back_water3.jpg);
-	background-repeat: no-repeat;
+	background-color:rgb(244, 248, 251);
+	background-image:url(../imagens/back_2.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
 }
 
 #main {
 	position:relative;
 	height:200px;
-	width:65%;
+	/*width:65%;*/
+	width:75%;
 	min-width:700px;
 	margin: 0px auto;
 }
@@ -41,6 +44,7 @@ a:link, a:visited, a:hover, a:active  {
 #title {
 	height:50px;
 	border-radius: 10px 10px 0px 0px;
+	font-family: "Century Gothic", "Lucida Console";
 }
 
 #title>p {
@@ -72,20 +76,21 @@ a:link, a:visited, a:hover, a:active  {
 
 #imagens {
 	float:right;
-	width:15%;
+	/*width:15%;*/
+	width:20%;
 	height:93%;
 	text-align:center;
 	border-right:1px dashed Black;
+	/*overflow-y:scroll;*/
 }
 
 #imagens>p {
-	margin-top:0px;
+	margin-top:5px;
 	margin-bottom: 5px;
 }
 
 #imagens img {
-	max-height:22px;
-	max-width:70%;
+	width:40%;
 }
 
 #bottom {
@@ -122,10 +127,11 @@ a:link, a:visited, a:hover, a:active  {
 }
  
 .modalImg>div {
-	top: 250px;
-	width:600px;
-	position:relative;
-	margin:0px auto;
+	width:40%;
+	min-width:350px;
+	position:absolute;
+    bottom:20px;
+    left:20px;
 	padding:20px;
 	padding-left:15px;
 	border-radius:10px;
@@ -162,14 +168,17 @@ a:link, a:visited, a:hover, a:active  {
 	background:Red; 
 }
 
+/*?px monitor height*/
+@media (min-height : 600px) {
+	#main {
+		height:350px;
+	}
+}
+
 /*768px monitor height*/
 @media (min-height : 680px) {
 	#main {
 		height:400px;
-	}
-	
-	#imagens img {
-		max-height:55px;
 	}
 }
 
@@ -177,9 +186,5 @@ a:link, a:visited, a:hover, a:active  {
 @media (min-height : 900px) {
 	#main {
 		height:650px;
-	}
-	
-	#imagens img {
-		max-height:100px;
 	}
 }

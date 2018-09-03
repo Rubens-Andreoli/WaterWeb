@@ -1,22 +1,22 @@
-#dicas, #title, #bottom, #imagens, .modalImg>div {
+#dicas, #title, #bottom, .modalImg>div {
 	background:rgb(92, 0, 234);
 }
 
 #title>p {
-	color:rgb(170, 130, 255);
+	color:rgb(160, 130, 255);
 }
 
 #imagens img, .modalImg img {
-	border-color:rgb(170, 130, 260);
+	border-color:rgb(160, 130, 260);
 }
 
 #center, .modalImg p {
 	color:rgb(66, 0, 158);
 }
 
-#center {
-	background:rgb(170, 130, 255);
-	background:rgba(170, 130, 255, 0.85);
+#center, #imagens {
+	background:rgb(160, 130, 255);
+	background:rgba(160, 130, 255, 0.90);
 }
 
 #center h2 {

@@ -1,4 +1,4 @@
-#brasil, #title, #bottom, #imagens, .modalImg>div {
+#brasil, #title, #bottom, .modalImg>div {
 	background:rgb(0, 157, 118);
 }
 
@@ -14,7 +14,7 @@
 	color:rgb(0, 94, 70);
 }
 
-#center {
+#center, #imagens {
 	background:rgb(150, 232, 211);
-	background:rgba(150, 232, 211, 0.85);
+	background:rgba(150, 232, 211, 0.90);
 }

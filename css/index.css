@@ -9,8 +9,8 @@
 }
 
 #main-menu{
-	width:500px;
-	height:280px;
+	width:645px;
+	height:300px;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:20px;
@@ -18,18 +18,28 @@
 
 .item-maior{
 	background-color:Red;
-	width:240px;
-	height:140px;
+	width:637px;
+	height:150px;
 	float:left;
 	margin-left:7px;
 	margin-top:10px;
+	border:1px solid #999;
+	border-radius:5px;
 }
 
 .item-menor{
-	background-color:Green;
-	width:157.5px;
-	height:110px;
+	/*background-color:Green;*/
+	width:120px;
+	height:120px;
 	float:left;
 	margin-left:7px;
 	margin-top:10px;
+	border:1px solid #999;
+	border-radius:5px;
+}
+
+.item-menor:hover{
+	cursor:pointer;
+	transition:0.3s;
+	background-color:#E0E0E0;
 }
